@@ -56,6 +56,7 @@ LOCAL_APPS = [
     # custom users app
     'instagram.users.apps.UsersConfig',
     # Your stuff: custom apps go here
+    'instagram.images.apps.ImagesConfig',
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
