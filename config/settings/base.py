@@ -49,6 +49,7 @@ THIRD_PARTY_APPS = [
     'allauth',  # registration
     'allauth.account',  # registration
     'allauth.socialaccount',  # registration
+    'rest_framework', # rest_framework
 ]
 
 # Apps specific for this project go here.
@@ -112,7 +113,7 @@ MANAGERS = ADMINS
 # Uses django-environ to accept uri format
 # See: https://django-environ.readthedocs.io/en/latest/#supported-types
 DATABASES = {
-    'default': env.db('DATABASE_URL', default='postgres://postgres:rlaxo5540@localhost:5432/nomadgram'),
+    'default': env.db('DATABASE_URL', default='postgres://postgres:rlaxo5540@localhost:5432/instagram'),
 }
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 
